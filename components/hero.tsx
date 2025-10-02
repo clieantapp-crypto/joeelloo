@@ -6,14 +6,11 @@ export function Hero() {
           <p className="text-xs md:text-sm tracking-[0.3em] uppercase text-muted-foreground mb-8">
             A Luxury Experience
           </p>
-
-          <div className="relative w-full aspect-[4/3] md:aspect-[16/9] mb-12 rounded-sm overflow-hidden">
             <img
               src="/Index+Image2.jpg"
               alt="Maison de Joëlle luxury jewelry store"
               className="w-full h-full object-cover"
             />
-          </div>
         </div>
       </div>
     </section>
