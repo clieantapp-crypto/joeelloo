@@ -6,32 +6,27 @@ const locations = [
     name: "Mirdif - Mirdif Avenue Mall",
     address: "Mirdif Avenue Mall, Ground Floor",
     city: "Dubai, UAE",
-    mapUrl: "/map-of-mirdif-avenue-mall-dubai.jpg",
+    mapUrl: "/Index+Image1.jpg",
   },
   {
     name: "Burjuman - BurJuman",
     address: "BurJuman Shopping Centre, Ground Floor",
     city: "Dubai, UAE",
-    mapUrl: "/map-of-burjuman-shopping-centre-dubai.jpg",
+    mapUrl: "/Index+Image3.jpg",
   },
   {
     name: "Dubai Mall",
     address: "The Dubai Mall, Ground Floor",
     city: "Dubai, UAE",
-    mapUrl: "/map-of-dubai-mall-location.jpg",
+    mapUrl: "/Index+ImageB1.jpg",
   },
   {
     name: "Ibn Battuta Mall",
     address: "Ibn Battuta Mall, Ground Floor",
     city: "Dubai, UAE",
-    mapUrl: "/map-of-ibn-battuta-mall-dubai.jpg",
+    mapUrl: "/Index+ImageB2.jpg",
   },
-  {
-    name: "Dubai Marina Mall",
-    address: "Dubai Marina Mall, Ground Floor",
-    city: "Dubai, UAE",
-    mapUrl: "/map-of-dubai-marina-mall.jpg",
-  },
+ 
 ]
 
 export function Locations() {
@@ -50,9 +45,7 @@ export function Locations() {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg">
-                    <MapPin className="w-6 h-6 text-primary-foreground" />
-                  </div>
+                  
                 </div>
               </div>
 

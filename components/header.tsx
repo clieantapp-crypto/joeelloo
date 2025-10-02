@@ -9,7 +9,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-border/40">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="font-serif text-2xl md:text-3xl tracking-tight">
-          <img src="logo.png" alt="logo" width={90} />
+          <img src="/logo.png" alt="logo" width={90} />
         </div>
 
         <Sheet>

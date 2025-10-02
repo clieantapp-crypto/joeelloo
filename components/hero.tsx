@@ -9,7 +9,7 @@ export function Hero() {
 
           <div className="relative w-full aspect-[4/3] md:aspect-[16/9] mb-12 rounded-sm overflow-hidden">
             <img
-              src="/luxury-jewelry-store-interior-with-elegant-display.jpg"
+              src="/Index+Image2.jpg"
               alt="Maison de Joëlle luxury jewelry store"
               className="w-full h-full object-cover"
             />
